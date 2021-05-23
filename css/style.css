@@ -73,9 +73,35 @@ main .contenedor-entrada-busqueda {
   align-items: center;
 }
 
-main .contenedor-entrada input{
-    width: 450px;
-    height: 40px;
-    border: none;
-    outline: none;
+main .contenedor-entrada input {
+  width: 450px;
+  height: 40px;
+  border: none;
+  outline: none;
+}
+
+main .contenedor-entrada-busqueda:hover {
+  box-shadow: 0 1px 6px 0 #20212447;
+  border-color: #dfe1e500;
+}
+
+main .contenedor-entrada .icono-busqueda{
+    background-image: url("https://images.vexels.com/media/users/3/132068/isolated/preview/f9bb81e576c1a361c61a8c08945b2c48-icono-de-b-uacute-squeda-by-vexels.png");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+
+}
+
+main .contenedor-entrada .icon-micro{
+    background-image: url("https://img1.freepng.es/20180410/kbw/kisspng-microphone-google-voice-google-search-google-logo-microphone-5accc7045909d9.1630438915233697323647.jpg");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+
 }
