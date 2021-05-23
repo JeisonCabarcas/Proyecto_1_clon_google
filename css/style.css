@@ -105,3 +105,32 @@ main .contenedor-entrada .icon-micro{
     cursor: pointer;
 
 }
+
+main .main-boton{
+    width: 530px;
+    margin: 0 auto;
+
+}
+
+main .main-boton div{
+    display: inline-block;
+}
+
+main .main-boton button{
+    height: 36px;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0 15px;
+    cursor: pointer;
+    margin-right: 15px; 
+}
+
+main .main-boton button:hover{
+    border: solid;
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+    color: #222;
+}
