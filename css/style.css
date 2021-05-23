@@ -54,6 +54,28 @@ main .main-logo {
   margin-bottom: 35px;
 }
 
-main .main-logo img{
-    width: 500px;
+main .main-logo img {
+  width: 500px;
+}
+
+main .contenedor-entrada {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+main .contenedor-entrada-busqueda {
+  width: 525px;
+  border-radius: 100px;
+  border: 1px solid #dfe1e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .contenedor-entrada input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
 }
